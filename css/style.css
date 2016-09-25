@@ -1,0 +1,196 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+}
+
+#main-wrapper {
+	width: 100%;
+	margin: 0 auto;
+	background: #f0efef;
+	font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+
+	background-image: url("../images/header_bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 700px;
+	box-sizing: border-box;
+	width: 100%;
+
+}
+
+.Relaxr {
+	font-size: 48px;
+	font-weight: 800;
+	color: #fff;
+	box-sizing: border-box;
+	position: absolute;
+    top: 30px;
+    left: 150px;
+}
+
+header h1 {
+	font-size: 48px;
+	font-weight: 600;
+	color: #fff;
+	position: absolute;
+    top: 30%;   
+    text-align: center;
+    width: 100%;
+}
+
+.first-button {
+    background: #f9e42e;
+    height: 80px;
+    width: 250px;
+    border: 1px solid #f9e42e;
+    border-radius: 5px;
+    font-size: 28px;
+    font-weight: 800;
+    color: #033048;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.block1 {
+	height: 350px;
+	width: 35%;
+	margin: 10% 0 0 10%;
+	
+}
+
+.block1 h2 {
+	font-size: 48px;
+	font-weight: 600; 
+	color: #033048;
+	padding-bottom: 5%;
+}
+
+.block1 p {
+	padding-bottom: 10%;
+}
+
+.block1 ul {
+	width: 350px;
+	text-align: left;
+	line-height: 1.5;
+}
+
+.block2 {
+	height: 394px;
+	width: 100%;
+	background-image: url("../images/testimonial_bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;  
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.block2 p {
+	width: 80%;
+	font-size: 36px;
+	font-weight: 300;
+	color: #fff;
+	font-style: italic;
+	padding-left: 20%;
+	padding-top: 45px;
+}
+
+.block2 h5 {
+	font-size: 36px;
+	font-weight: 600;
+	color: #fff;
+	margin-top: 5%;
+}
+
+.block3 {
+	height: 120px;
+	width: 100%;
+	background-color: #f9e42e;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.second-button {
+	background: #033048;
+    height: 80px;
+    width: 250px;
+    border: 1px solid #033048;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: 800;
+    color: #fff;
+}
+
+footer {
+	background: #121212;
+	height: 394px;
+	width: 100%;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.Relaxr-footer {
+	font-size: 48px;
+	font-weight: 800;
+	color: #f9e42e;
+	display: block;
+	padding-top: 95px;
+}
+
+footer p {
+	font-size: 18px;
+	font-weight: 600;
+	color: #fff;
+	display: block;
+	padding-top: 25px;
+}
+
+.social {
+	display: block;
+	padding-top: 25px;
+}
+
+.twitter, .facebook {
+	display: inline-block;
+}
+.footer-link {
+	color: #fff;
+}	
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
